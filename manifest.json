@@ -1,0 +1,24 @@
+{
+    "name": "CK Wiki Redirector",
+    "version": "0.0.1",
+    "description": "Redirects navigation to the old Skyrim CreationKit Wiki to the clone hosted and maintained by the UESP.",
+    "manifest_version": 3,
+    "icons": {
+        "48": "ck-ext-48.png",
+        "128": "ck-ext-128.png"
+    },
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "wiki_rules",
+            "enabled": true,
+            "path": "rule_wiki.json"
+        }]
+    },
+    "permissions": [
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": [
+        "*://creationkit.com/*",
+        "*://www.creationkit.com/*"
+    ]
+}

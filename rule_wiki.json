@@ -1,0 +1,14 @@
+[{
+    "id": 1,
+    "priority": 1,
+    "action": {
+        "type": "redirect",
+        "redirect": {
+            "regexSubstitution": "https://ck.uesp.net/wiki/\\1"
+        }
+    },
+    "condition": {
+        "regexFilter": "^https?:\\/\\/(?:www\\.)?creationkit.com\\/index.php\\?title=((?:[\\w:()]|%[0-9a-fA-F]{2})+)$",
+        "resourceTypes": ["main_frame", "sub_frame"]
+    }
+}]
