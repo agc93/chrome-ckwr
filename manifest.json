@@ -1,6 +1,6 @@
 {
     "name": "CK Wiki Redirector",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Redirects navigation to the old Skyrim CreationKit Wiki to the clone hosted and maintained by the UESP.",
     "manifest_version": 3,
     "icons": {
