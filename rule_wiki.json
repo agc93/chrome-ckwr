@@ -4,11 +4,11 @@
     "action": {
         "type": "redirect",
         "redirect": {
-            "regexSubstitution": "https://ck.uesp.net/wiki/\\1"
+            "regexSubstitution": "https://\\1ck.uesp.net/wiki/\\2"
         }
     },
     "condition": {
-        "regexFilter": "^https?:\\/\\/(?:www\\.)?creationkit.com\\/(?:index.php\\?title=)?((?:[\\w:()]|%[0-9a-fA-F]{2})+)$",
+        "regexFilter": "^https?:\\/\\/(?:www\\.)?creationkit.com\\/(?:(fallout)4\\/)?(?:index.php\\?title=)?((?:[\\w:()]|%[0-9a-fA-F]{2})+)$",
         "resourceTypes": ["main_frame", "sub_frame"]
     }
 }]
